@@ -1,4 +1,4 @@
-# Automatically create and fill pages in Confluence
-Import contents into Confluence through the user interface using a Puppeteer-controlled browser
+# The best way to copy objects
+Modern structuredClone() is less performant because it is more capable than JSON.parse(JSON.stringify())
 
-Sample code for my very exciting post https://marian-caikovski.medium.com/automatically-create-and-fill-pages-in-confluence-22fe0cb2359c about automatic creation of pages with tables in Confluence
+Sample code for post https://marian-caikovski.medium.com/the-best-way-to-copy-objects-9434cf2fef75 comparing modern techniques of cloning objects
