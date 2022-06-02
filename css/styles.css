@@ -1,0 +1,24 @@
+* {
+    font-family:arial;
+}
+
+.chart {
+    margin: 0 11em;
+    height: 25em;
+}
+
+a {
+    text-decoration: none;
+    color: darkblue;
+}
+
+h1 {
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: normal;
+}
+
+h2 {
+    text-align: center;
+    font-weight: normal;
+}
