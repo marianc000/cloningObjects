@@ -21,12 +21,15 @@ function addChildren(depth, o, level = 1) {
 }
  
 const results = [];
+let previousObjAsJSON;
+
 function time(func, title) {
     const start = Date.now();
     const r = func();
     const time = Date.now() - start;
-   // console.log(title, time, JSON.stringify(r).length, r);
-    console.log(title, r);
+    const objAsJSON=JSON.stringify(r);
+    console.log(title, time, objAsJSON.length, previousObjAsJSON===objAsJSON,r);
+    previousObjAsJSON=objAsJSON;
     results.push({ time, title });
 }
 
